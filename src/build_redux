@@ -13,6 +13,9 @@ rm ./redux
 # Skylake Intel Chips
 #CFLAGS='-mavx2 -msse4.2 -msse4.1 -malign-double -march=skylake'
 
+# OpenPOWER (POWER8 and higher, Talos II, Blackbird, etc.)
+#CFLAGS='-mcpu=native -mtune=native -mvsx'
+
 # Generic - RaspPi
 CFLAGS='-march=native -mtune=native -pipe -fomit-frame-pointer'
 
